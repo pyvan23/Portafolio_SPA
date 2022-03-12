@@ -1,1 +1,95 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap-grid.min.css";
+#gradient{
+    background: #11998e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  }
+  #container-principal {
+    width: 95%;
+    margin: 0% auto;
+    /*border: 1px solid black;*/
+  }
+  #image-style-back {
+    width: 120%;
+    height: 400px;
+    padding: 0px;
+    margin: 0%;
+    border-radius: 20px;
+  }
+  #image-profile {
+    height: 10%;
+    width: 12%;
+    border-radius: 50%;
+    margin-top: -100px;
+    margin-left: 15px;
+  }
+  .content {
+    margin-top: 5px;
+  }
+  
+  ul li {
+    float: left;
+    list-style: none;
+    margin: 10px;
+  }
+  
+  .font-name {
+    font-family: "Baloo Bhaijaan 2", cursive;
+    margin-left: 3px;
+    margin-bottom: 0px;
+  }
+  .fix {
+    clear: both;
+  }
+  .clasHeader {
+    border: 3px solid white ;
+    border-radius: 20px;
+    padding: 5px;
+  }
+  
+  .mover {
+    margin-left: 3px;
+    margin-bottom: 6px;
+  }
+  .teclab {
+    width: 50px;
+    border-radius: 10px;
+  }
+  .ModeloMarmol {
+    width: 30px;
+    border-radius: 22px;
+  }
+  .argentinaPrograma{
+    width: 30px;
+    
+  }
+  .iconosRelativos {
+    float: right;
+    margin: 10px;
+  }
+  .iconosRelativos2 {
+    float: right;
+    width: 50%;
+    margin-top: 90px;
+    margin-right: 130px;
+  }
+  .iconosRelativos3 {
+    float: right;
+    margin-right: 365px;
+    margin-top: 10px;
+  
+  }
+  
+  .plus{
+    float: right;
+    margin-top: 10px;
+  }
+  .gitHub{
+    float: right;
+    margin: 10px;
+  }
+  .fontTitles{
+    font-family: 'Fredoka', sans-serif;
+  }
+  
