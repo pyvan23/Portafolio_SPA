@@ -1,4 +1,4 @@
-@import "../node_modules/bootstrap/dist/css/bootstrap-grid.min.css";
+
 #gradient{
     background: #11998e;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */

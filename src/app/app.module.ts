@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { SectionComponent } from './components/section/section.component';
 import { MetricsComponent } from './components/metrics/metrics.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -13,10 +14,12 @@ import { FooterComponent } from './components/footer/footer.component';
     HeaderComponent,
     SectionComponent,
     MetricsComponent,
-    FooterComponent
+    FooterComponent,
+    
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
