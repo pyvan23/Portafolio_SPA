@@ -1,15 +1,20 @@
 
-#gradient{
-    background: #11998e;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
-  }
-  #container-principal {
+
+
+body{
+  background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#ver{
+  border: solid black;
+}
+  /*#container-principal {
     width: 95%;
     margin: 0% auto;
-    /*border: 1px solid black;*/
-  }
+    border: 1px solid black;
+  }*/
   #image-style-back {
     width: 120%;
     height: 400px;
@@ -42,11 +47,11 @@
   .fix {
     clear: both;
   }
-  .clasHeader {
+  /*.clasHeader {
     border: 3px solid white ;
     border-radius: 20px;
     padding: 5px;
-  }
+  }*/
   
   .mover {
     margin-left: 3px;
