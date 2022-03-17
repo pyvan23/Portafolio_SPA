@@ -1,5 +1,9 @@
 
-
+.log-in{
+  font-family: 'Lobster', cursive;
+  color: black
+  
+}
 
 body{
   background: #11998e;  /* fallback for old browsers */
@@ -8,7 +12,7 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
 
 }
 #ver{
-  border: solid black;
+  border: solid yellow;
 }
   /*#container-principal {
     width: 95%;
