@@ -11,6 +11,13 @@ background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-2
 background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+#edit-profile-image-name{
+   width: 20%;
+    height: 20px;
+    padding: 0px;
+    margin: 0%;
+    border-radius: 20px;
+}
 #ver{
   border: solid yellow;
 }
@@ -25,6 +32,7 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
     padding: 0px;
     margin: 0%;
     border-radius: 20px;
+  
   }
   #image-profile {
     height: 10%;
@@ -32,6 +40,7 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
     border-radius: 50%;
     margin-top: -100px;
     margin-left: 15px;
+    
   }
   .content {
     margin-top: 5px;
@@ -75,7 +84,7 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
   }
   .iconosRelativos {
     float: right;
-    margin: 10px;
+    margin-right: 10px;
   }
   .iconosRelativos2 {
     float: right;
@@ -89,7 +98,8 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
     margin-top: 10px;
   
   }
-  
+ 
+    
   .plus{
     float: right;
     margin-top: 10px;
@@ -101,4 +111,5 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
   .fontTitles{
     font-family: 'Fredoka', sans-serif;
   }
+  .name{font-family: 'Permanent Marker', cursive;}
   
