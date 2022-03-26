@@ -6,29 +6,21 @@
 }
 
 body{
-  background: #11998e;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #7F7FD5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 
 }
-#edit-profile-image-name{
-   width: 20%;
-    height: 20px;
-    padding: 0px;
-    margin: 0%;
-    border-radius: 20px;
-}
+
 #ver{
-  border: solid yellow;
+  border-radius: 3px;
+  
 }
-  /*#container-principal {
-    width: 95%;
-    margin: 0% auto;
-    border: 1px solid black;
-  }*/
+ 
   #image-style-back {
     width: 120%;
-    height: 400px;
+    height: 350px;
     padding: 0px;
     margin: 0%;
     border-radius: 20px;
@@ -60,18 +52,14 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
   .fix {
     clear: both;
   }
-  /*.clasHeader {
-    border: 3px solid white ;
-    border-radius: 20px;
-    padding: 5px;
-  }*/
+  
   
   .mover {
     margin-left: 3px;
     margin-bottom: 6px;
   }
   .teclab {
-    width: 50px;
+    width: 70px;
     border-radius: 10px;
   }
   .ModeloMarmol {
@@ -79,8 +67,13 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
     border-radius: 22px;
   }
   .argentinaPrograma{
-    width: 30px;
+    width: 50px;
     
+  }
+
+  .alkemy{
+    width: 50px;
+    border-radius: 22%;
   }
   .iconosRelativos {
     float: right;
@@ -111,5 +104,10 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
   .fontTitles{
     font-family: 'Fredoka', sans-serif;
   }
-  .name{font-family: 'Permanent Marker', cursive;}
+  .name{font-family: 'Source Code Pro', monospace;}
+  .subNames{
+   font-family: 'Montserrat', sans-serif;;
+    
+    
+  }
   

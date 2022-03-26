@@ -7,6 +7,7 @@ import { SectionComponent } from './components/section/section.component';
 import { MetricsComponent } from './components/metrics/metrics.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { ProgressBarComponent } from './progress-bar/progress-bar.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http';
     SectionComponent,
     MetricsComponent,
     FooterComponent,
+    ProgressBarComponent,
     
   ],
   imports: [
