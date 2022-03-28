@@ -1,12 +1,13 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ProgressBarComponent } from './progress-bar/progress-bar.component';
+
 import { Router } from 'express';
 import { RouterModule, Routes } from '@angular/router';
+import { AppComponent } from './app.component';
 
 const routes: Routes = [
-  { path: 'bar', component: ProgressBarComponent },
-  { path: '**', pathMatch: 'full', redirectTo: 'bar' },
+  { path: '', component: AppComponent },
+  { path: '**', pathMatch: 'full', redirectTo: '' },
 ];
 
 @NgModule({
