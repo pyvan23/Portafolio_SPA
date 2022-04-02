@@ -1,17 +1,31 @@
 <div class="container">
-<form>
+  <form [formGroup]="form">
     <div class="mb-3">
       <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <input type="email" formControlName="email"
+      [ngClass]="{'is-invalid':Email?.errors 
+      && Email?.touched,'is-valid':!Email?.errors && Email?.touched}"class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div *ngIf="Email?.errors && Email?.touched">
+        <p *ngIf="Email?.hasError('required')" class="text-danger">
+          Email is Required
+        </p>
+        <p *ngIf="Email?.hasError('email')" class="text-danger">
+          Format must be Valid
+        </p>
+      </div>
       <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
     <div class="mb-3">
       <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      <input type="password" formControlName="password" class="form-control" id="exampleInputPassword1">
+      <div *ngIf="Password?.errors && Password?.touched">
+        <p *ngIf="Password?.hasError('required')" class="text-danger">
+          Password is Required
+        </p>
+        <p *ngIf="Password?.errors?.['minlength']" class="text-danger">
+          Password mas be have 8 or more characters
+        </p>
+      </div>
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
