@@ -1,5 +1,5 @@
 <div class="container">
-  <form [formGroup]="form">
+  <form [formGroup]="form" class="m-5"(ngSubmit)="onLogIn($event)">
     <div class="mb-3">
       <label for="exampleInputEmail1" class="form-label">Email address</label>
       <input type="email" formControlName="email"

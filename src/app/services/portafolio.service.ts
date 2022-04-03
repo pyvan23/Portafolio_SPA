@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class PortafolioService {
-
+//url:string=""
   constructor(private http:HttpClient) { }
 
   getData():Observable<any>{
