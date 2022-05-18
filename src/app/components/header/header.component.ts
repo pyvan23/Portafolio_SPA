@@ -12,7 +12,7 @@ export class HeaderComponent implements OnInit {
 
   ngOnInit(): void {
     this.data.getData().subscribe((data) => {
-      console.log(data);
+      console.log("datos personales " + JSON.stringify(data) );
       this.myPorfolio = data;
     });
   }

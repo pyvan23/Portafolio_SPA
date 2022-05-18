@@ -7,10 +7,10 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class PortafolioService {
-//url:string=""
+url:string="http://localhost:8080/showPerson";
   constructor(private http:HttpClient) { }
 
   getData():Observable<any>{
-    return this.http.get('./assets/data.json')
+    return this.http.get(this.url)
   }
 }

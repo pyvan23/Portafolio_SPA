@@ -8,7 +8,7 @@ import { map } from 'rxjs/operators';
 })
 export class AuthService {
   url = 'http://localhost:4200';
-  currentUserSubject: BehaviorSubject<any>;
+  currentUserSubject: BehaviorSubject<any>; //guarda los estados
   constructor(private http: HttpClient) {
     console.log('service is running');
     this.currentUserSubject = new BehaviorSubject<any>(
@@ -17,7 +17,8 @@ export class AuthService {
   }
   /*metodo que llama a la api,es Obsrebables para que los controladores puedan suscribirse
   vamos a almacenar en el objeto storage que posee dos propiedades el local storage
-  (guarda los datos hasta que sean eliminados) y el session storage(guarda los datos hasta que la pestaña sea cerrada)*/
+  (guarda los datos hasta que sean eliminados) y el session storage(guarda los datos
+     hasta que la pestaña sea cerrada)*/
 
   logIn(credentials: any): Observable<any> {
     return this.http.post(this.url, credentials).pipe(
